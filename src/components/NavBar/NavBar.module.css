@@ -1,0 +1,52 @@
+@keyframes active-route {
+  0% {
+    border-bottom-width: 7px;
+    border-color: #ffffff;
+  }
+  100% {
+    border-bottom-width: 2px;
+    border-color: #ffffff;
+  }
+}
+
+.NavBar {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 195, 255);
+  display: flex;
+}
+
+.NavBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar li {
+  padding: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.NavBar li:hover {
+  background-color: rgba(137, 43, 226, 0.459);
+}
+
+.NavBar ul li a {
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out;
+}
+
+.NavBar ul li a.active {
+  border-bottom: 2px solid rgba(137, 43, 226, 0.459);
+  animation-name: active-route;
+}
+

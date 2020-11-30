@@ -1,0 +1,62 @@
+.ImageCard {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px 5px lightgray;
+  background: #ffffff;
+  padding: 1rem;
+  width: 70%;
+}
+
+.container {
+  position: relative;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.container img:first-child {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.container div {
+  position: absolute;
+  top: 75%;
+  right: 0;
+}
+
+.container div img {
+  width: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.container div img:hover {
+  filter: invert(100%);
+}
+
+.container div img:active {
+  filter: invert(50%);
+} 
+
+.description {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #707070;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  margin-left: 27px;
+}
+
+.description p,
+.description time {
+  margin: 0;
+}
+
+.description time {
+  padding-top: 1rem;
+}

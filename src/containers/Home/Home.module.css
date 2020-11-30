@@ -1,0 +1,26 @@
+.Home img {
+  margin-bottom: 1rem;
+}
+
+.Home button {
+  background: rgb(0, 195, 255);
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.Home button:focus {
+  outline: none;
+  box-shadow: 0 0 4px 2px rgba(137, 43, 226, 0.459);
+}
+
+.Home button:hover {
+  box-shadow: 0 0 4px 2px rgba(137, 43, 226, 0.459);
+}
+
+.Home button:active {
+  box-shadow: 0 0 4px 2px rgba(137, 43, 226, 0.459);
+  color: lightgray;
+  outline: none;
+} 

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  display: flex;
+  flex: row nowrap;
+  flex-grow: 1;
+  margin: 2rem 2rem;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  text-align: center;
+  margin-right: 2rem;
+}
