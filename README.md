@@ -1,4 +1,4 @@
-# random-gif-generator-react
+# Random gif generator 
 Takes a random gif from Giphy. 
 Built with React, React Router, Redux.
 
